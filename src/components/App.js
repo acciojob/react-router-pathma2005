@@ -10,10 +10,10 @@ function App(){
       <nav>
         <ul>
           <li>
-            <link to="/">Home</link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <link to="/about">About</link>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </nav>
@@ -24,12 +24,4 @@ function App(){
     </Router>
   )
 }
-const App = () => {
-  return (
-    <div>
-      
-</div>
-  )
-}
-
 export default App
