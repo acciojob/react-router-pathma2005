@@ -5,7 +5,8 @@ import './../styles/App.css';
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+<h2>About</h2>
+    <p>This is a sample React Router Program.</p>
     </div>
   )
 }
