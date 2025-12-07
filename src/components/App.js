@@ -1,11 +1,11 @@
-
 import React from "react";
 import './../styles/App.css';
-import {BrowserRouter as Router ,Routes , Route , Link} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
-function App(){
-  return(
+
+function App() {
+  return (
     <Router>
       <nav>
         <ul>
@@ -17,11 +17,13 @@ function App(){
           </li>
         </ul>
       </nav>
+
       <Routes>
-        <Route path="/" element={<Home/>}/>
-           <Route path="/about" element={<About/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
-  )
+  );
 }
-export default App
+
+export default App;
